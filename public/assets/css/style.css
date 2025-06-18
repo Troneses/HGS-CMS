@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-theme .navbar {
+    background-color: #1a1a1a !important;
+}
+
+.dark-theme footer {
+    background-color: #1a1a1a !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.content p { margin-bottom: 1em; }
+.content a { color: #007bff; }
+.content ul, .content ol { padding-left: 20px; }
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
